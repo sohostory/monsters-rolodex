@@ -4,7 +4,7 @@ const SearchBox = ({ className, placeholder, onChangeHandler }) => (
   <input
     className={className}
     type="search"
-    placeHolder={placeholder}
+    placeholder={placeholder}
     onChange={onChangeHandler}
   />
 );
